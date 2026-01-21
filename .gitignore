@@ -36,3 +36,5 @@ Thumbs.db
 
 # Production build
 www/
+
+.vscode
