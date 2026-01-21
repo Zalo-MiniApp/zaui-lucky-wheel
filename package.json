@@ -1,0 +1,46 @@
+{
+  "name": "zaui-lucky-wheel",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ZaUI Lucky Wheel là bộ giao diện mẫu (Template) giúp xây dựng các chiến dịch Vòng quay may mắn (Lucky Wheel/Slot Machine) trên Zalo Mini App nhằm thu hút người dùng và tăng tương tác.",
+  "repository": "",
+  "license": "UNLICENSED",
+  "browserslist": [
+    "Android >= 5",
+    "IOS >= 9.3",
+    "Edge >= 15",
+    "Safari >= 9.1",
+    "Chrome >= 49",
+    "Firefox >= 31",
+    "Samsung >= 5"
+  ],
+  "scripts": {
+    "login": "zmp login",
+    "start": "zmp start",
+    "deploy": "zmp deploy"
+  },
+  "dependencies": {
+    "@tanstack/react-form": "^1.27.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.4.0",
+    "valibot": "^1.2.0",
+    "zmp-sdk": "latest",
+    "zmp-ui": "latest",
+    "zustand": "^5.0.9"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^8.3.1",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.76.0",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.13",
+    "zmp-vite-plugin": "latest"
+  }
+}
